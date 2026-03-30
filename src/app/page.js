@@ -14,7 +14,7 @@ const Home = () => {
     { id: 1, name: "Bespoke Suiting", image: "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&q=80&w=800", count: "500+ Selections", class: "lg:col-span-2 lg:h-[600px]" },
     { id: 2, name: "Premium Shirting", image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&q=80&w=800", count: "300+ Weaves", class: "lg:h-[400px] lg:mt-24" },
     { id: 3, name: "Luxury Linen", image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800", count: "Fine Threadcount", class: "lg:h-[500px]" },
-    { id: 4, name: "Men's Essentials", image: "https://images.unsplash.com/photo-1582533081023-ef880625f385?auto=format&fit=crop&q=80&w=800", count: "Curated Brands", class: "lg:col-span-2 lg:h-[400px] lg:-mt-24" },
+    { id: 4, name: "Men's Essentials", image: "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&q=80&w=800", count: "Curated Brands", class: "lg:col-span-2 lg:h-[400px] lg:-mt-24" },
   ];
 
   const brands = ["Arvind", "Raymond", "Siyaram", "Linen Club", "Cadini", "Soktas"];
@@ -164,7 +164,7 @@ const Home = () => {
                    title: "The Midnight Silk Series", 
                    subtitle: "Evening Mastery", 
                    desc: "A meticulous orchestration of deep indigos and raven blacks, featuring superfine threadcounts from world-renowned mills.",
-                   image: "https://images.unsplash.com/photo-1594932224828-b4b39ef3a726?auto=format&fit=crop&q=80&w=1200",
+                   image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1200",
                    tag: "S/S COLLECTION"
                  },
                  { 
