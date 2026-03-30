@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body className="font-body bg-cream text-navy min-h-screen flex flex-col antialiased selection:bg-gold selection:text-navy overflow-x-hidden">
         <CustomCursor />
         <Navbar />
-        <main className="flex-grow pt-20 lg:pt-24">{children}</main>
+        <main className="flex-grow">{children}</main>
         <Footer />
         <WhatsAppButton />
       </body>

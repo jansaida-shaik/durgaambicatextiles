@@ -35,7 +35,7 @@ const Footer = () => {
     <footer className="pt-40 pb-24 bg-navy text-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent"></div>
       <div className="container">
-        <div className="grid grid-cols-1 gap-16 mb-24 lg:grid-cols-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-16 mb-24 lg:grid-cols-5">
           <div className="space-y-10">
             <Link href="/" className="flex flex-col items-start space-y-6 group shrink-0">
               <div className="relative w-16 h-16 flex items-center justify-center border border-gold/10 p-1 group-hover:border-gold/40 transition-all duration-1000 bg-white/5 overflow-hidden">
