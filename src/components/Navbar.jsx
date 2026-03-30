@@ -56,7 +56,7 @@ const Navbar = () => {
               DURGA AMBICA
             </span>
             <span className="text-[9px] tracking-[0.4em] text-gold font-bold uppercase mt-0.5">
-              ATELIER EST. 1995
+              TEXTILES EST. 1995
             </span>
           </div>
         </Link>

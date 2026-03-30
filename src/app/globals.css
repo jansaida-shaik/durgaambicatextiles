@@ -125,7 +125,7 @@
   }
 
   .section-padding {
-    @apply py-48 lg:py-80;
+    @apply py-20 lg:py-32;
   }
 
   .text-gold-luxury {
