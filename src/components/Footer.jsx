@@ -32,30 +32,43 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="pt-20 pb-10 bg-navy text-white">
+    <footer className="pt-40 pb-24 bg-navy text-white relative overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent"></div>
       <div className="container">
-        <div className="grid grid-cols-1 gap-12 mb-16 lg:grid-cols-4">
-          <div className="space-y-6">
-            <Link href="/" className="flex flex-col items-start leading-none group text-white">
-              <span className="text-2xl font-bold tracking-tighter transition-colors font-heading">
-                DURGA AMBICA
-              </span>
-              <span className="text-[10px] tracking-[0.2em] font-bold text-gold uppercase mt-0.5 group-hover:text-white transition-colors">
-                TEXTILES
-              </span>
+        <div className="grid grid-cols-1 gap-16 mb-24 lg:grid-cols-4">
+          <div className="space-y-10">
+            <Link href="/" className="flex flex-col items-start space-y-6 group shrink-0">
+              <div className="relative w-16 h-16 flex items-center justify-center border border-gold/10 p-1 group-hover:border-gold/40 transition-all duration-1000 bg-white/5 overflow-hidden">
+                 <img 
+                   src="/logo-luxury.png" 
+                   alt="Durga Ambica Divine Emblem" 
+                   className="w-full h-full object-contain filter drop-shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-[2000ms]"
+                 />
+              </div>
+              <div className="flex flex-col items-start leading-none gap-2">
+                <span className="text-xl font-bold tracking-[0.2em] text-white font-heading lg:text-2xl transition-all duration-1000">
+                  DURGA AMBICA
+                </span>
+                <div className="flex items-center space-x-3">
+                  <div className="h-px w-6 bg-gold/40"></div>
+                  <span className="text-[9px] tracking-[0.5em] font-bold text-gold uppercase transition-colors duration-700">
+                    ATELIER EST. 1995
+                  </span>
+                </div>
+              </div>
             </Link>
-            <p className="text-sm leading-relaxed text-gray-400 max-w-sm">
-              Trusted textile showroom specializing in premium suiting and shirting fabrics from top brands. Serving retail and wholesale customers with excellence since 25+ years.
+            <p className="text-sm leading-relaxed text-gray-400 max-w-sm font-light opacity-80">
+              Dedicated to the art of textile curation for over 25 years. We provide the world's most discerning boutiques and designers with the foundations of luxury fashion.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="p-2 transition-colors duration-300 border rounded-full border-white/20 hover:border-gold hover:text-gold" aria-label="Instagram">
-                <Instagram size={20} />
+            <div className="flex space-x-6">
+              <a href="#" className="w-10 h-10 flex items-center justify-center transition-all duration-700 border border-white/10 hover:border-gold hover:bg-gold hover:text-navy translate-y-0 hover:-translate-y-1" aria-label="Instagram">
+                <Instagram size={18} />
               </a>
-              <a href="#" className="p-2 transition-colors duration-300 border rounded-full border-white/20 hover:border-gold hover:text-gold" aria-label="Facebook">
-                <Facebook size={20} />
+              <a href="#" className="w-10 h-10 flex items-center justify-center transition-all duration-700 border border-white/10 hover:border-gold hover:bg-gold hover:text-navy translate-y-0 hover:-translate-y-1" aria-label="Facebook">
+                <Facebook size={18} />
               </a>
-              <a href="#" className="p-2 transition-colors duration-300 border rounded-full border-white/20 hover:border-gold hover:text-gold" aria-label="Twitter">
-                <Twitter size={20} />
+              <a href="#" className="w-10 h-10 flex items-center justify-center transition-all duration-700 border border-white/10 hover:border-gold hover:bg-gold hover:text-navy translate-y-0 hover:-translate-y-1" aria-label="Twitter">
+                <Twitter size={18} />
               </a>
             </div>
           </div>
