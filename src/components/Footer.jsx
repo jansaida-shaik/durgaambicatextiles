@@ -38,17 +38,17 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="pt-40 pb-24 bg-navy text-white relative overflow-hidden">
+    <footer className="pt-20 pb-10 bg-navy text-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent"></div>
       <div className="w-full px-10 lg:px-20 2xl:px-24 mx-auto max-w-[1800px]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-20 xl:gap-24 mb-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-20 xl:gap-24 mb-12">
           <div className="space-y-12">
             <Link href="/" className="flex flex-col items-start space-y-8 group shrink-0">
               <div className="relative w-24 h-24 flex items-center justify-center border border-gold/10 p-2 group-hover:border-gold/40 transition-all duration-1000 bg-white/5 overflow-hidden">
                 <img
                   src="/logo-luxury.png"
                   alt="Durga Ambica Divine Emblem"
-                  className="w-full h-full object-contain filter drop-shadow-2xl grayscale group-hover:grayscale-0 transition-all duration-[2000ms]"
+                  className="w-full h-full object-contain filter drop-shadow-2xl transition-all duration-[2000ms]"
                 />
               </div>
               <div className="flex flex-col items-start leading-none gap-3">
