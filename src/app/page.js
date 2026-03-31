@@ -301,7 +301,7 @@ const Home = () => {
           <div className="luxury-card flex flex-col lg:flex-row min-h-[600px] border-none">
             <div className="lg:w-1/2 relative h-[400px] lg:h-auto overflow-hidden">
                <img 
-                src="https://images.unsplash.com/photo-1594932224828-b4b39ef3a726?auto=format&fit=crop&q=80&w=1200" 
+                src="/hero-showroom.png" 
                 alt="Wholesale Atelier" 
                 className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-[2000ms]"
               />

@@ -43,8 +43,8 @@ const Footer = () => {
       <div className="w-full px-10 lg:px-20 2xl:px-24 mx-auto max-w-[1800px]">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-20 xl:gap-24 mb-12">
           <div className="space-y-12">
-            <Link href="/" className="flex flex-col items-start space-y-8 group shrink-0">
-              <div className="relative w-24 h-24 flex items-center justify-center border border-gold/10 p-2 group-hover:border-gold/40 transition-all duration-1000 bg-white/5 overflow-hidden">
+            <Link href="/" className="flex items-center gap-6 group shrink-0">
+              <div className="relative w-64 h-64 flex items-center justify-center overflow-hidden dimensions">
                 <img
                   src="/logo-luxury.png"
                   alt="Durga Ambica Divine Emblem"
@@ -52,15 +52,12 @@ const Footer = () => {
                 />
               </div>
               <div className="flex flex-col items-start leading-none gap-3">
-                <span className="text-2xl font-bold tracking-[0.2em] text-white font-heading lg:text-3xl transition-all duration-1000">
+                <span className="text-lg font-bold tracking-[0.08em] text-white font-heading whitespace-nowrap lg:text-xl transition-all duration-1000">
                   DURGA AMBICA
                 </span>
-                <div className="flex items-center space-x-4">
-                  <div className="h-px w-8 bg-gold/40"></div>
-                  <span className="text-[11px] tracking-[0.5em] font-bold text-gold uppercase transition-colors duration-700">
-                    TEXTILES EST. 1995
-                  </span>
-                </div>
+                <span className="text-[10px] tracking-[0.42em] font-bold text-gold uppercase transition-colors duration-700">
+                  TEXTILES EST. 1995
+                </span>
               </div>
             </Link>
             <p className="text-base leading-relaxed text-gray-400 max-w-sm font-light opacity-80">

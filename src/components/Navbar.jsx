@@ -42,20 +42,26 @@ const Navbar = () => {
 
         {/* Logo */}
         <Link href="/" className="flex items-center gap-4 group shrink-0">
-          <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center overflow-hidden flex-shrink-0 border border-gold/20 group-hover:border-gold/60 transition-all duration-500">
+          <div className={`w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center overflow-hidden flex-shrink-0 border shadow-[0_12px_30px_rgba(223,192,142,0.18)] transition-all duration-500 ${
+            scrolled
+              ? 'border-gold/40 bg-gradient-to-br from-cream via-white to-gold-light/70'
+              : 'border-gold/30 bg-gradient-to-br from-white/20 via-gold/20 to-gold/40 backdrop-blur-md'
+          } group-hover:border-gold/70 group-hover:shadow-[0_18px_40px_rgba(223,192,142,0.28)]`}>
             <img
               src="/logo-luxury.png"
               alt="Durga Ambica"
-              className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
           </div>
           <div className="flex flex-col leading-none">
             <span className={`text-sm sm:text-base font-bold tracking-[0.12em] font-heading transition-colors duration-300 ${
-              scrolled ? 'text-navy' : 'text-white'
+              scrolled ? 'text-navy' : 'text-cream'
             }`}>
               DURGA AMBICA
             </span>
-            <span className="text-[9px] tracking-[0.4em] text-gold font-bold uppercase mt-0.5">
+            <span className={`text-[9px] tracking-[0.4em] font-bold uppercase mt-0.5 ${
+              scrolled ? 'text-gold' : 'text-gold-light'
+            }`}>
               TEXTILES EST. 1995
             </span>
           </div>

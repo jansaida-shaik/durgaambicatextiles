@@ -131,4 +131,8 @@
   .text-gold-luxury {
     @apply text-gold drop-shadow-[0_2px_4px_rgba(223,192,142,0.3)];
   }
+  .dimensions{
+    height:200px;
+    width:200px;
+  }
 }
